@@ -2,11 +2,14 @@
     margin: 0%;
     padding: 0%;
     box-sizing: border-box;
+
 }
 
 html {
     font-size: 62.5%;
     scroll-behavior: smooth;
+    overflow-x: auto; 
+    overflow-y: auto; 
 
 }
 
@@ -29,10 +32,19 @@ html {
     font-family: futurak;
 }
 body {
+    height: 100%;
     font-family: aperu;
     color: var(--white);
     background-color: #000000;
+    overflow-x: auto; 
+    overflow-y: auto; 
     
+}
+.style-none{
+    list-style: none;
+}
+.li-margin{
+    margin: 20px;
 }
 .colorw{
     color: var(--white);
@@ -70,6 +82,12 @@ body {
 }
 .letter{
     letter-spacing:4px;
+}
+.letter2{
+    letter-spacing:4px;
+}
+.justify{
+    text-align: justify;
 }
 .red-color{
     color: #e60c21;
@@ -109,7 +127,9 @@ body {
 .justify-around {
     justify-content:space-around;
 }
-
+.dir-col{
+  flex-direction: column;
+}
 .flex-wrap {
     flex-wrap:wrap;
 }
