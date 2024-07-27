@@ -2,20 +2,27 @@
     margin: 0%;
     padding: 0%;
     box-sizing: border-box;
+    overflow:hidden;
 
 }
 
 html {
     font-size: 62.5%;
     scroll-behavior: smooth;
-    overflow-x: auto; 
-    overflow-y: auto; 
+    overflow-x:auto; 
+    overflow-y:auto; 
 
 }
 
 @font-face {
     font-family: aperu;
     src: url(../Fonts/Apercu\ Font\ Family/);
+}
+.font-family3{
+    font-family:aperu;
+}
+.boder1{
+  border: 2px solid white;
 }
 @font-face {
     font-family:buttler;
@@ -185,6 +192,9 @@ body {
     padding: 30px;
 }
 /* margrin */
+.pmargin{
+    margin: 0px 0px 32px;
+}
 .marginCenter {
     margin: auto;
 }
@@ -235,6 +245,7 @@ body {
 .my15{
     margin-bottom:20px;
 }
+
 .my16{
     margin-bottom:10px ;
 }
@@ -272,7 +283,7 @@ body {
 }
 
 /* text area */
-.text-center {
+.text-center{
     text-align:center;
 }
 
@@ -316,4 +327,7 @@ body {
 }
 .colorg{
     color: var(--gery);
+}
+.inline-block{
+    display: inline-block;
 }
