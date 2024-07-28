@@ -13,48 +13,45 @@ a {
   width: 165px;
 }
 .container-nav {
-  font-size: 2rem;
-  height:90px;
-  padding:10px 10px;
-  display:flex;
+  display: flex;
   justify-content: space-around;
-  flex-wrap: wrap;
-  align-items:center;
-  margin-bottom: 10px;
+  align-items: center;
+  padding:15px;
 }
 .nav-item{
-  display:flex;
-  justify-content:space-between;
-  align-items:center;
-  width:800px;
-  margin-bottom:10px;
+ font-size:2rem;
+ text-decoration: none;
+ display: flex;
+ align-items: center;
+ gap:50px;
 }
-.order-btn {
-  padding: 15px 30px;
-  border-radius: 50px;
-  background: transparent;
+
+.order-btn1{
+  background-color: transparent;
+  border:2px solid white;
+  padding:15px 20px;
+  border-radius:40px;
   color: white;
-  font-size: 1.6rem;
-  border: 2px solid grey;
+  font-size:1.6rem;
 }
-.get-btn {
-  padding: 15px 20px;
-  border-radius:100px;
-  background: red;
-  color: white;
+.franchise-btn1{
+  background-color:red;
+  border: 1px solid grey;
+  padding:15px 20px;
+  border-radius:40px;
   font-size: 1.6rem;
-  border: none;
+
 }
-.circle { 
-  padding:12px;
-  color: red;
-  background-color: white;
-  clip-path:circle();
+.circle{
+  background-color:white;
+  color:#ff0000;
+  padding: 10px 10px;
+  border-radius:30px;
 }
 /* Navbar styling end */
 /* Hero sesction */
 .hero-section {
-  height: 138vh;
+  height:155vh;
   width: 100%;
   margin-bottom: 100px;
 }
@@ -63,9 +60,9 @@ a {
   margin-bottom: 5px;
 }
 .brand-section {
-  width: 100%;
-  padding: 50px;
-  height: 70vh;
+  width:100%;
+  padding:50px;
+  height:100vh;
 }
 .brand-section p {
   line-height: 1.5;
@@ -73,37 +70,41 @@ a {
   font-size: 2.8rem;
 }
 .card img {
-  width:80%;
-  object-fit: cover;
+  width:auto;
   border-radius: 4px;
   background-color: white;
 }
 .card-container {
   width: 100%;
-  padding: 20px;
+  padding: 50px;
+  height: auto;
   display: flex;
   justify-content: center;
   align-items: center;
   flex-wrap: wrap;
-  gap: 10px;
-}
-.card1 {
-  width:30%;
-  padding:20px 25px;
-}
-.card2 {
-  padding: 20 19px;
-  width: 30%;
-}
-.card3 {
-  width: 30%;
-  padding: 20 19px;
+  gap: 20px;
+  margin-top: 20px;
 }
 
-.order-btn1,
-.order-btn2,
-.order-btn3 {
-  display:flex;
+.card1, .card2, .card3 {
+  width: 30%;
+  height: auto; /* Adjust height based on content */
+  padding: 19px;
+  color: white;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1); /* Optional shadow */
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.card img {
+  width:auto;
+  border-radius: 4px;
+  margin-bottom: 20px; /* Gap between image and button */
+}
+
+.order-btn {
+  display: flex;
   justify-content: center;
   align-items: center;
   padding: 15px 20px;
@@ -113,7 +114,10 @@ a {
   font-size: 1.6rem;
   border: 1px solid grey;
   cursor: pointer;
-  margin: 20px auto 50px;
+  margin-top: auto; /* Ensure button is pushed to the bottom */
+  margin-bottom: 20px; /* Additional space at the bottom if needed */
+  text-decoration: none;
+  width: fit-content;
 }
 
 .text-area {
@@ -122,8 +126,8 @@ a {
 }
 .frenchise1 {
   width: 1500px;
-  height: 1400px;
-  margin: 150px auto 50px auto;
+  height: 1300px;
+  /* margin-top:200px; */
   background-image: url(../assets/imgs/bb1bd702-431a-4f3a-a0ca-c5966a1f7985.webp);
   background-repeat: no-repeat;
   background-position: top right;
@@ -403,16 +407,16 @@ a {
 /* footer section start */
 .footer-section {
   width: 100%;
-  min-height:100vh;
+  min-height:85vh;
   background-color: rgba(255, 255, 255, 0.06);
   background-image: url(../assets/imgs/bb1bd702-431a-4f3a-a0ca-c5966a1f7985.webp);
   background-repeat: no-repeat;
   background-position: bottom left;
-  background-size: 20%;
-  padding:20px;
+  background-size:20%;
+  padding:10px;
   display: flex;
   flex-direction: column; /* Stack children vertically */
-  justify-content: space-between; /* Space out children */
+  justify-content:space-between; /* Space out children */
   overflow: hidden;
 }
 .footer-card-container{
@@ -431,8 +435,8 @@ a {
 }
 
 .footer-box1 img {
-  width: 200px;
-  height: 100px;
+  width:200px;
+  height:100px;
 }
 .icon i {
   background-color: red;
