@@ -10,7 +10,7 @@ a {
 }
 /* Navbar styling */
 .container-nav img {
-  width: 165px;
+  width:165px;
 }
 .container-nav {
   display: flex;
@@ -452,4 +452,20 @@ a {
   display: flex;
   justify-content:space-between;
 }
-
+.back-to-top {
+  position:relative;
+  bottom:10px;
+  left:0%;
+  background-color: #555;
+  color: #fff;
+  padding: 10px;
+  border-radius: 5px;
+  text-decoration: none;
+  display: block;
+  margin-bottom: 100px;
+  width:90px;
+}
+.angle-up1 {
+  font-size: 3rem;
+  margin-left:20px;
+}
