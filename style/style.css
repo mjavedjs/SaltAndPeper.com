@@ -240,6 +240,7 @@ a {
   height:200px;
   width: 350px;
   margin-bottom: 2rem;
+  border-radius:8px;
 }
 .cardff5 {
   width: 30%;
