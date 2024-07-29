@@ -408,7 +408,7 @@ a {
 /* footer section start */
 .footer-section {
   width: 100%;
-  height:95vh;
+  height:100vh;
   background-color: rgba(255, 255, 255, 0.06);
   background-image: url(../assets/imgs/bb1bd702-431a-4f3a-a0ca-c5966a1f7985.webp);
   background-repeat: no-repeat;
@@ -431,7 +431,7 @@ a {
 .footer-box3,
 .footer-box4{
   width:700px;
-  height:auto;
+  height:800px;
   padding:10px;
 }
 
