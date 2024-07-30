@@ -17,6 +17,7 @@ a {
   justify-content: space-around;
   align-items: center;
   padding:15px;
+  font-family:aperu;
 }
 .nav-item{
  font-size:2rem;
@@ -36,17 +37,25 @@ a {
 }
 .franchise-btn1{
   background-color:red;
-  border: 1px solid grey;
-  padding:15px 20px;
+  padding:10px 30px;
   border-radius:40px;
   font-size: 1.6rem;
-
+  border: none;
 }
-.circle{
-  background-color:white;
-  color:#ff0000;
-  padding: 10px 10px;
-  border-radius:30px;
+.circle {
+  background-color: white;
+  color: #ff0000;
+  padding: 10px;
+  border-radius: 50%; 
+  display: inline-flex; 
+  align-items: center; 
+  justify-content: center; 
+  width: 40px; 
+  height: 40px;
+}
+
+.circle i {
+  font-size: 1.5rem; /* Adjusts the icon size */
 }
 /* Navbar styling end */
 /* Hero sesction */
@@ -125,8 +134,8 @@ a {
   text-align: center;
 }
 .frenchise1 {
-  width: 1500px;
-  height: 1300px;
+  width:100%;
+  height:1300px;
   /* margin-top:200px; */
   background-image: url(../assets/imgs/bb1bd702-431a-4f3a-a0ca-c5966a1f7985.webp);
   background-repeat: no-repeat;
@@ -408,7 +417,7 @@ a {
 /* footer section start */
 .footer-section {
   width: 100%;
-  height:100vh;
+  height:110vh;
   background-color: rgba(255, 255, 255, 0.06);
   background-image: url(../assets/imgs/bb1bd702-431a-4f3a-a0ca-c5966a1f7985.webp);
   background-repeat: no-repeat;
@@ -431,7 +440,7 @@ a {
 .footer-box3,
 .footer-box4{
   width:700px;
-  height:800px;
+  height:900px;
   padding:10px;
 }
 
@@ -443,13 +452,14 @@ a {
   background-color: red;
   font-size: 2em;
   padding: 20px;
-  border-radius: 50%;
-  margin: 5px;
+  border-radius:45%;
+  margin:5px;
   color: white;
 }
 .copy-right {
   border-top: 2px solid grey;
-  width: 100%;
+  width:100%;
+  height:20vh;
   display: flex;
   justify-content:space-between;
 }
@@ -468,5 +478,5 @@ a {
 }
 .angle-up1 {
   font-size: 3rem;
-  margin-left:20px;
+  margin-left:10px;
 }

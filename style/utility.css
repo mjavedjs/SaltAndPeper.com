@@ -202,7 +202,9 @@ body {
 .magrin20 {
     margin:20px;
 }
-
+.mt3{
+    margin-top: 3px;
+}
 .magrin25 {
     margin: 25px;
 }
@@ -306,6 +308,9 @@ body {
 }   
 .font5{
     font-size: 6rem;
+}
+.font7{
+    font-size:7rem;
 }
 /* border and border-radius */
 .border1 {

@@ -45,9 +45,9 @@ img:hover{
     width:100%;
     height:120vh;
     display: flex;
-    flex-direction: column;
+    flex-direction:column;
     align-items:center;
-    gap:10px;
+    gap:5px;
 } 
 .text-box1 ,.text-box2,.text-box3 , .text-box4, .text-box5{
     width:600px;
