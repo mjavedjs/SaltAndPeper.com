@@ -15,8 +15,8 @@ html {
 }
 
 @font-face {
-    font-family: aperu;
-    src: url(../Fonts/Apercu\ Font\ Family/);
+    font-family:aperu;
+    src: url('../Fonts/Apercu/Fonts/Apercu/Font/Family/Apercu-Light-Italic.otf');
 }
 .font-family3{
     font-family:aperu;
